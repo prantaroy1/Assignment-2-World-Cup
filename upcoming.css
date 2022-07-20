@@ -1,0 +1,92 @@
+/* blogs Section */
+
+.match-fixtures {
+    margin-left: 2%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 20px;
+    gap: 35px;
+    width: 75%;
+
+}
+
+.fixtures {
+    border: 1px solid lightgrey;
+    padding: 20px 35px;
+    text-align: center;
+    border-radius: 6px;
+    width: 80%;
+}
+
+.flags img {
+    width: 93px;
+}
+
+.flag-fixtures {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+
+.vs {
+    font-weight: 700;
+    font-size: 16px;
+    color: #0c0b0b;
+}
+
+.fixture-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #161616;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.fixtures-time p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #4D4D4D;
+    margin-bottom: 50px;
+}
+
+
+
+/* responsive for Mobile Phones */
+
+@media screen and (max-width:766px) {
+
+
+    .match-fixtures {
+        margin-left: 0;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+        column-gap: 0;
+    }
+
+    .flags {
+        width: 100%;
+    }
+}
+
+
+
+
+/* responsive for Tablets */
+
+@media screen and (min-width:767px) and (max-width:1023px) {
+
+
+    .match-fixtures {
+        margin-left: 0;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+    }
+
+    .flags {
+        width: 100%;
+    }
+
+}
